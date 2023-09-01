@@ -9,11 +9,30 @@ environment:
 dependencies:
   flutter:
     sdk: flutter
+  flutter_svg: ^2.0.7
 
 dev_dependencies:
+  flutter_lints: ^2.0.0
   flutter_test:
     sdk: flutter
-  flutter_lints: ^2.0.0
 
 flutter:
   uses-material-design: true
+
+  assets:
+    - assets/images/top_header.png
+    - assets/svg/student.svg
+    - assets/svg/schedule.svg
+    - assets/svg/attendance.svg
+    - assets/svg/books.svg
+    - assets/svg/book.svg
+    - assets/svg/test.svg
+
+  fonts:
+    - family: Montserrat Regular
+      fonts:
+        - asset: assets/fonts/mo_re.ttf
+
+    - family: Montserrat Medium
+      fonts:
+        - asset: assets/fonts/mo_me.ttf
